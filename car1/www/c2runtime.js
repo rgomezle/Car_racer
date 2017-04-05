@@ -10041,7 +10041,7 @@ window["cr_setSuspended"] = function(s)
 			this.is_else_block = (this.conditions[0].type == null && this.conditions[0].func == cr.system_object.prototype.cnds.Else);
 		}
 	};
-	window["_c2hh_"] = "B4AD36DB5DC048600B9ABB2EFCFB868A70ECFA81";
+	window["_c2hh_"] = "";
 	EventBlock.prototype.postInit = function (hasElse/*, prevBlock_*/)
 	{
 		var i, len;
@@ -19564,10 +19564,10 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.TiledBg,
-	cr.plugins_.Touch,
 	cr.plugins_.Spritefont2,
 	cr.plugins_.Sprite,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Touch,
 	cr.behaviors.Bullet,
 	cr.behaviors.solid,
 	cr.behaviors.Platform,
